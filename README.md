@@ -1,2 +1,1 @@
-# chronochicken
-Chrono Chicken
+# Chrono Chicken
