@@ -12,6 +12,11 @@
     extensions = [
       "Dart-Code.flutter"
       "Dart-Code.dart-code"
+      "gornivv.vscode-flutter-files"
+      "Nash.awesome-flutter-snippets"
+      "streetsidesoftware.code-spell-checker"
+      "usernamehw.errorlens"
+      "Gruntfuggly.todo-tree"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
