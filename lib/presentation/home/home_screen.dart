@@ -1,5 +1,5 @@
 import 'package:chronochicken/domain/state/home/home_state.dart';
-import 'package:chronochicken/widgets/game_container.dart';
+//import 'package:chronochicken/widgets/game_container.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -11,9 +11,12 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GameContainer(
-      child: Content(state),
+    return const Center(
+      child: Text('Chrono Chicken'),
     );
+    /*return GameContainer(
+      child: Content(state),
+    );*/
   }
 }
 

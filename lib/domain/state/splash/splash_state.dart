@@ -1,9 +1,10 @@
-import 'package:chronochicken/utils/navigation.dart';
+//import 'package:chronochicken/utils/navigation.dart';
 import 'package:dafluta/dafluta.dart';
 
 class SplashState extends BaseState {
   @override
   void onLoad() {
-    Delayed.post(Navigation.homeScreen);
+    print('yes');
+    //Delayed.post(Navigation.homeScreen);
   }
 }
