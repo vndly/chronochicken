@@ -4,13 +4,13 @@ publish_to: none
 version: 0.0.1+1
 
 environment:
-  sdk: ">=3.10.0 <4.0.0"
+  sdk: ">=3.9.0 <4.0.0"
 
 dependencies:
   web: ^1.1.1
   logger: ^2.6.2
   get_it: ^9.1.0
-  dafluta: ^5.6.0
+  dafluta: 5.5.1 # Not compatible with current Flutter/Dart version
   json_annotation: ^4.9.0
   shared_preferences: ^2.5.3
 
@@ -30,9 +30,9 @@ dependencies:
 dev_dependencies:
   dalocale: ^2.6.0
   daassets: ^1.5.0
-  daunused: ^1.8.1
+  daunused: 1.6.1 # Not compatible with current Flutter/Dart version
   dapublock: ^1.1.0
-  build_runner: ^2.10.4
+  build_runner: 2.7.1 # Not compatible with current Flutter/Dart version
   flutter_lints: ^6.0.0
   json_serializable: ^6.11.2
 
