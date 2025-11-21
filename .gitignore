@@ -121,4 +121,4 @@ public/
 web/
 
 # Firebase
-firebase/
+.firebase/
