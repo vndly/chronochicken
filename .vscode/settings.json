@@ -28,6 +28,8 @@
         "dblite",
         "devicelab",
         "errorlens",
+        "firebaseapp",
+        "firebasestorage",
         "firestore",
         "flutterfire",
         "gornivv",

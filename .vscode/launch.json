@@ -5,6 +5,7 @@
             "name": "Chrono Chicken",
             "request": "launch",
             "type": "dart",
+            "program": "lib/main/main_local.dart",
             "flutterMode": "debug"
         }
     ]
