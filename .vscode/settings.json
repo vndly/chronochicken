@@ -16,11 +16,23 @@
     "dart.previewFlutterUiGuides": true,
     "cSpell.words": [
         "appbar",
+        "buildlog",
         "Chrono",
+        "dblite",
+        "devicelab",
         "errorlens",
         "gornivv",
+        "gradlew",
         "Gruntfuggly",
+        "mingit",
         "nixpkgs",
-        "usernamehw"
+        "pbxuser",
+        "perspectivev",
+        "podspec",
+        "pubspec",
+        "sconsign",
+        "usernamehw",
+        "xcconfig",
+        "xcuserdata"
     ]
 }
