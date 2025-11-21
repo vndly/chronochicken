@@ -12,6 +12,7 @@ flutter build web -t lib/main/main_remote.dart --release
 # mkdir -p build/web/assets/audio
 # cp -r build/web/assets/assets/audio/** build/web/assets/audio
 
+rm -rf public/*
 cp -r build/web/** ./public
 
 firebase use remote
