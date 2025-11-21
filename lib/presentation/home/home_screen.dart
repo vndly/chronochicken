@@ -1,5 +1,6 @@
 import 'package:chronochicken/domain/state/home/home_state.dart';
-//import 'package:chronochicken/widgets/game_container.dart';
+import 'package:chronochicken/utils/palette.dart';
+import 'package:chronochicken/widgets/game_container.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -11,12 +12,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Chrono Chicken'),
-    );
-    /*return GameContainer(
+    return GameContainer(
       child: Content(state),
-    );*/
+    );
   }
 }
 
@@ -28,7 +26,12 @@ class Content extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text('Chrono Chicken'),
+      child: Text(
+        'Chrono Chicken',
+        style: TextStyle(
+          color: Palette.TEXT_COLOR_PRIMARY,
+        ),
+      ),
     );
   }
 }
