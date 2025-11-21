@@ -118,6 +118,7 @@ app.*.symbols
 
 # Hosting
 public/
+web/
 
 # Firebase
 firebase/
