@@ -28,7 +28,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["flutter" "run" "--machine" "-t" "lib/main/main_local.dart" "-d" "web-server" "--web-hostname" "0.0.0.0" "--web-port" "$PORT"];
+          command = ["flutter" "run" "--machine" "-d" "web-server" "--web-hostname" "0.0.0.0" "--web-port" "$PORT"];
           manager = "flutter";
         };
       };
