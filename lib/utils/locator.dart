@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:chronochicken/environments/environment.dart';
+import 'package:chronochicken/platform/operations/set_url_strategy.dart';
 import 'package:chronochicken/utils/navigation.dart';
 import 'package:chronochicken/utils/platform.dart';
 import 'package:firebase_core/firebase_core.dart';

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class Palette {
   static const MaterialColor PRIMARY = Colors.green;
 
-  static const Color SCREEN_BACKGROUND = Colors.white;
+  static const Color SCREEN_BACKGROUND = Colors.black;
   static const Color GAME_BACKGROUND = Colors.black;
 
   static const Color SEMANTIC_ERROR = Colors.red;

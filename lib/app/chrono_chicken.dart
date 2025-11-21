@@ -1,3 +1,4 @@
+import 'package:chronochicken/presentation/splash/splash_screen.dart';
 import 'package:chronochicken/utils/navigation.dart';
 import 'package:chronochicken/utils/palette.dart';
 import 'package:flutter/material.dart';
